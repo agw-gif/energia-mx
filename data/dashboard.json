@@ -1,0 +1,699 @@
+{
+  "meta": {
+    "edition_label": "EDICIÓN",
+    "edition_date_iso": "2026-06-12",
+    "edition_date_label": "12 JUNIO 2026",
+    "volume": "Vol. II · Núm. 124",
+    "updated_label": "09:08 CDMX",
+    "updated_iso": "2026-06-12T09:08:48.501363",
+    "generated_at": "2026-06-12T09:08:48.501363",
+    "issn": "2954-0000"
+  },
+  "hero": {
+    "headline_lead": "México frente a la transición:",
+    "headline_accent": "datos, política y capital",
+    "headline_tail": "en un sector que se redibuja.",
+    "subtitle": "Inteligencia editorial sobre el sector energético, en español — para quienes lo deciden, lo financian y lo construyen.",
+    "cta_primary": "Leer la edición de hoy",
+    "cta_secondary": "Explorar el mapa",
+    "photo_credit": "FOTOGRAFÍA: PARQUE EÓLICO LA VENTOSA, OAXACA"
+  },
+  "sen": {
+    "kicker": "DATOS EN VIVO · SISTEMA ELÉCTRICO NACIONAL",
+    "title": "El sistema, ahora mismo.",
+    "sources": "Fuentes: CENACE · CRE · SENER · IEA. Cifras preliminares sujetas a revisión.",
+    "generation_mix": {
+      "label": "MIX DE GENERACIÓN",
+      "headline_value": 53,
+      "headline_unit": "%",
+      "headline_note": "gas natural",
+      "slices": [
+        {
+          "name": "Gas natural",
+          "value": 53,
+          "color": "#7A6E5A"
+        },
+        {
+          "name": "Eólica",
+          "value": 13,
+          "color": "#5E7C73"
+        },
+        {
+          "name": "Solar",
+          "value": 9,
+          "color": "#C2922E"
+        },
+        {
+          "name": "Hidro",
+          "value": 7,
+          "color": "#3E6B8C"
+        },
+        {
+          "name": "Carbón",
+          "value": 7,
+          "color": "#4A4541"
+        },
+        {
+          "name": "Otros",
+          "value": 11,
+          "color": "#B8AE9C"
+        }
+      ]
+    },
+    "kpis": [
+      {
+        "label": "% RENOVABLES AHORA",
+        "value": "33",
+        "unit": "%",
+        "delta": "▼ -0.9 pp vs ayer",
+        "trend": "up"
+      },
+      {
+        "label": "INTENSIDAD DE CARBONO",
+        "value": "406",
+        "unit": "gCO₂/kWh",
+        "delta": "▼ -1.9% vs 7d",
+        "trend": "down-good"
+      },
+      {
+        "label": "PRECIO PROMEDIO MWH",
+        "value": "$1,395",
+        "unit": "MXN",
+        "delta": "▼ -8.8% vs 7d",
+        "trend": "up-bad"
+      },
+      {
+        "label": "DEMANDA PICO AYER",
+        "value": "48.4",
+        "unit": "GW",
+        "delta": "21:15 h · Sistema Interconectado Nacional",
+        "trend": "flat"
+      }
+    ],
+    "capacity": {
+      "label": "CAPACIDAD INSTALADA",
+      "value": "92.3",
+      "unit": "GW",
+      "delta": "▲ +2.8 GW interanual",
+      "bars": [
+        {
+          "name": "Fósil",
+          "value": 55
+        },
+        {
+          "name": "Eól",
+          "value": 14
+        },
+        {
+          "name": "Sol",
+          "value": 13
+        },
+        {
+          "name": "Hidro",
+          "value": 12
+        },
+        {
+          "name": "Otros",
+          "value": 6
+        }
+      ]
+    }
+  },
+  "analisis": {
+    "kicker": "COMPARATIVA INTERNACIONAL",
+    "title": "Buenas prácticas, leídas en clave mexicana.",
+    "intro": "Seleccionamos casos donde la integración de renovables, el diseño de mercado o la regulación abrieron rutas que México podría adaptar. Curaduría diaria del equipo editorial.",
+    "cases": [
+      {
+        "flag": "🇩🇰",
+        "country": "DINAMARCA",
+        "topic": "MERCADO ELÉCTRICO",
+        "title": "Integración eólica al 67% de la red sin pérdida de confiabilidad.",
+        "body": "Operación coordinada con Nord Pool y reservas hidráulicas nórdicas permiten absorber picos de generación variable.",
+        "date": "04 MAY 2026"
+      },
+      {
+        "flag": "🇩🇪",
+        "country": "ALEMANIA",
+        "topic": "SUBASTAS",
+        "title": "Subastas tecnológicamente neutrales: $34/MWh promedio en 2025.",
+        "body": "El rediseño 2024 incorporó criterios no-precio (cadena de suministro, ciberseguridad) sin erosionar competitividad.",
+        "date": "03 MAY 2026"
+      },
+      {
+        "flag": "🇨🇱",
+        "country": "CHILE",
+        "topic": "ALMACENAMIENTO",
+        "title": "2.1 GW de baterías desplazaron carbón en el norte minero.",
+        "body": "Pago por capacidad firme + contratos PPA con mineras destrabaron el pipeline más rápido de Latinoamérica.",
+        "date": "02 MAY 2026"
+      },
+      {
+        "flag": "🇦🇺",
+        "country": "AUSTRALIA",
+        "topic": "DER",
+        "title": "3.6M de techos solares: gobernanza de recursos distribuidos.",
+        "body": "AEMO instituyó estándares de inversores compatibles con red débil tras el incidente de Australia del Sur.",
+        "date": "30 ABR 2026"
+      },
+      {
+        "flag": "🇬🇧",
+        "country": "REINO UNIDO",
+        "topic": "CFD",
+        "title": "Contratos por Diferencia: 14 GW eólico marino contratado en AR6.",
+        "body": "Ajuste al strike price tras AR5 vacío restauró participación; nuevas pots para mareomotriz y geotermia.",
+        "date": "29 ABR 2026"
+      },
+      {
+        "flag": "🇲🇦",
+        "country": "MARRUECOS",
+        "topic": "CSP",
+        "title": "Noor Ouarzazate como ancla de exportación verde al sur de Europa.",
+        "body": "El complejo termosolar respalda el cable submarino Xlinks y posiciona al país como hub de hidrógeno.",
+        "date": "28 ABR 2026"
+      }
+    ]
+  },
+  "politica": {
+    "kicker": "BRIEF DE POLÍTICA · FRACTURACIÓN HIDRÁULICA",
+    "title": "Gobiernos de vanguardia: el mapa regulatorio del fracking.",
+    "intro": "La fracturación hidráulica polarizó decisiones nacionales en la última década. Hoy conviven prohibiciones constitucionales, moratorias técnicas y regímenes activos con divulgación obligatoria. Lectura comparada para el caso mexicano.",
+    "doc_ref": "Documento de trabajo · Energía MX — DT-2026/14 · 18pp · ES/EN",
+    "stats": [
+      {
+        "label": "Prohibido",
+        "value": "3 países"
+      },
+      {
+        "label": "Moratoria",
+        "value": "5 países"
+      },
+      {
+        "label": "Permitido con regulación",
+        "value": "7 países"
+      },
+      {
+        "label": "Activo, sin restricciones",
+        "value": "4 países"
+      }
+    ],
+    "rows": [
+      {
+        "code": "FR",
+        "country": "Francia",
+        "status": "Prohibido (2017)",
+        "notes": "Ley Hulot prohíbe nuevos permisos y renovaciones. Decisión basada en principio precautorio constitucional."
+      },
+      {
+        "code": "DE",
+        "country": "Alemania",
+        "status": "Moratoria (rev. 2026)",
+        "notes": "Moratoria de facto desde 2017, en revisión por seguridad energética. Permisos de investigación científica autorizados."
+      },
+      {
+        "code": "UK",
+        "country": "Reino Unido",
+        "status": "Moratoria (2019)",
+        "notes": "Suspensión tras eventos sísmicos en Lancashire. Levantamiento temporal 2022, restablecida 2023."
+      },
+      {
+        "code": "US",
+        "country": "Estados Unidos",
+        "status": "Activo",
+        "notes": "Permian Basin: 6.4 mb/d en 2025, récord histórico. Regulación estatal heterogénea: NY, VT, MD prohíben; TX, NM, PA lideran."
+      },
+      {
+        "code": "AR",
+        "country": "Argentina",
+        "status": "Activo · Vaca Muerta",
+        "notes": "Plan Gas.Ar y RIGI 2024 aceleran inversión privada en el segundo recurso de shale gas del mundo."
+      }
+    ]
+  },
+  "mapa": {
+    "kicker": "VISUALIZACIÓN · CARTOGRAFÍA ENERGÉTICA",
+    "title": "El mundo, por fuente de energía.",
+    "intro": "Filtra por tecnología para ver dónde se concentra la capacidad instalada y los proyectos emblemáticos. Datos a 2025.",
+    "filters": [
+      {
+        "key": "solar",
+        "label": "☀ Solar"
+      },
+      {
+        "key": "eolica",
+        "label": "⌖ Eólica"
+      },
+      {
+        "key": "geotermia",
+        "label": "◉ Geotermia"
+      },
+      {
+        "key": "hidro",
+        "label": "≈ Hidro"
+      },
+      {
+        "key": "nuclear",
+        "label": "⚛ Nuclear"
+      },
+      {
+        "key": "fosiles",
+        "label": "▲ Fósiles"
+      }
+    ],
+    "highlight": {
+      "label": "CASO DESTACADO",
+      "title": "Solar: el cinturón del Pacífico mexicano",
+      "body": "Sonora aporta el 38% de la radiación efectiva nacional. El proyecto Puerto Peñasco fase III sumaría 720 MW al SEN antes de 2027."
+    },
+    "top5": {
+      "label": "TOP 5 CAPACIDAD",
+      "source": "Fuente: IRENA, IEA, Ember (2025)",
+      "rows": [
+        {
+          "rank": 1,
+          "country": "China",
+          "value": "430 GW",
+          "lat": 35.0,
+          "lon": 103.0,
+          "tech": "solar"
+        },
+        {
+          "rank": 2,
+          "country": "EE.UU.",
+          "value": "138 GW",
+          "lat": 39.0,
+          "lon": -98.0,
+          "tech": "solar"
+        },
+        {
+          "rank": 3,
+          "country": "Alemania",
+          "value": "88 GW",
+          "lat": 51.0,
+          "lon": 10.0,
+          "tech": "solar"
+        },
+        {
+          "rank": 4,
+          "country": "Japón",
+          "value": "79 GW",
+          "lat": 36.0,
+          "lon": 138.0,
+          "tech": "solar"
+        },
+        {
+          "rank": 5,
+          "country": "India",
+          "value": "73 GW",
+          "lat": 22.0,
+          "lon": 79.0,
+          "tech": "solar"
+        }
+      ]
+    },
+    "markers": [
+      {
+        "name": "Puerto Peñasco (Sonora)",
+        "lat": 31.3,
+        "lon": -113.5,
+        "tech": "solar",
+        "value": "720 MW"
+      },
+      {
+        "name": "La Ventosa (Oaxaca)",
+        "lat": 16.56,
+        "lon": -94.9,
+        "tech": "eolica",
+        "value": "Corredor eólico"
+      },
+      {
+        "name": "Cerro Prieto (BC)",
+        "lat": 32.4,
+        "lon": -115.2,
+        "tech": "geotermia",
+        "value": "570 MW"
+      },
+      {
+        "name": "Los Azufres (Michoacán)",
+        "lat": 19.8,
+        "lon": -100.66,
+        "tech": "geotermia",
+        "value": "248 MW"
+      },
+      {
+        "name": "Chicoasén (Chiapas)",
+        "lat": 16.95,
+        "lon": -93.1,
+        "tech": "hidro",
+        "value": "2,400 MW"
+      },
+      {
+        "name": "Laguna Verde (Veracruz)",
+        "lat": 19.72,
+        "lon": -96.4,
+        "tech": "nuclear",
+        "value": "1,610 MW"
+      }
+    ]
+  },
+  "geotermia": {
+    "kicker": "PULSO · INNOVACIÓN GEOTÉRMICA",
+    "title": "Geotermia de nueva generación.",
+    "intro": "El subsuelo profundo dejó de ser una promesa académica. Cuatro empresas y un puñado de hallazgos están redefiniendo la curva de costos. Cobertura semanal.",
+    "companies": [
+      {
+        "name": "Fervo",
+        "place": "HOUSTON · USA",
+        "tag": "HALLAZGO · 28 ABR 2026",
+        "headline": "Cape Station alcanza temperaturas comerciales a 2.6 km en Utah.",
+        "metric_label": "MW contratados",
+        "metric_value": "400"
+      },
+      {
+        "name": "Eavor",
+        "place": "CALGARY · CAN",
+        "tag": "HITO · 22 ABR 2026",
+        "headline": "Eavor-Loop™ Geretsried entrega calor a la red bávara.",
+        "metric_label": "MWt térmicos",
+        "metric_value": "64"
+      },
+      {
+        "name": "Sage",
+        "place": "HOUSTON · USA",
+        "tag": "AVANCE · 18 ABR 2026",
+        "headline": "Almacenamiento geomecánico: 18 MWh en pozo único en Texas.",
+        "metric_label": "Eficiencia round-trip",
+        "metric_value": "72%"
+      },
+      {
+        "name": "Quaise",
+        "place": "CAMBRIDGE · USA",
+        "tag": "INVESTIGACIÓN · 11 ABR 2026",
+        "headline": "Perforación con girotrón milimétrico supera 2 km en granito.",
+        "metric_label": "Profundidad objetivo",
+        "metric_value": "20 km"
+      }
+    ],
+    "quote": "México concentra el 5% del recurso geotérmico convencional global y prácticamente el 100% del potencial supercrítico de Norteamérica. La pregunta ya no es si, sino con qué arquitectura regulatoria.",
+    "quote_attr": "— EDITORIAL · 5 MAY 2026"
+  },
+  "convocatoria": {
+    "kicker": "CONVOCATORIA ABIERTA · ENERGÍA MX · INVERSIÓN MIXTA 2026",
+    "title": "Capital privado para infraestructura energética nacional, en condiciones de gobernanza pública.",
+    "intro": "Tercera edición del programa de financiamiento mixto que vincula vehículos institucionales con proyectos elegibles de transmisión, almacenamiento, geotermia y eficiencia. Selección por panel independiente con criterios publicados.",
+    "dates": [
+      {
+        "label": "APERTURA",
+        "value": "12 mayo 2026"
+      },
+      {
+        "label": "CIERRE",
+        "value": "31 julio 2026"
+      },
+      {
+        "label": "FALLO",
+        "value": "15 octubre 2026"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Bolsa indicativa",
+        "value": "$8,200 MDP"
+      },
+      {
+        "label": "Vehículos elegibles",
+        "value": "Fideicomisos · CKD · CERPI"
+      },
+      {
+        "label": "Sectores",
+        "value": "4 verticales"
+      },
+      {
+        "label": "Plazo de ejecución",
+        "value": "36 meses"
+      },
+      {
+        "label": "Auditoría",
+        "value": "Independiente · ASF"
+      }
+    ],
+    "contact": "Contacto editorial · convocatoria@energia.mx · Consultas técnicas +52 (55) 5000 0000 · Sesión informativa 19 may 2026, 11:00 CDMX"
+  },
+  "agenda": {
+    "kicker": "CALENDARIO · PRÓXIMOS HITOS",
+    "title": "Lo que viene en el sector.",
+    "filters": [
+      "Todos",
+      "Congresos",
+      "Regulatorio",
+      "Publicaciones"
+    ],
+    "events": [
+      {
+        "date": "18/JUN",
+        "dow": "jue · 2026",
+        "type": "REGULATORIO",
+        "title": "Audiencia pública: bases del mercado de capacidad firme",
+        "place": "CRE · virtual"
+      },
+      {
+        "date": "02/JUL",
+        "dow": "jue · 2026",
+        "type": "PUBLICACIÓN",
+        "title": "IEA World Energy Investment 2026",
+        "place": "París"
+      },
+      {
+        "date": "15/JUL",
+        "dow": "mié · 2026",
+        "type": "CONGRESO",
+        "title": "Foro Internacional de Almacenamiento Energético",
+        "place": "Monterrey"
+      },
+      {
+        "date": "31/JUL",
+        "dow": "jue · 2026",
+        "type": "REGULATORIO",
+        "title": "Cierre de Convocatoria de Inversión Mixta 2026",
+        "place": "Energía MX"
+      }
+    ]
+  },
+  "noticias": {
+    "kicker": "NOTICIAS · ENERGÍA",
+    "title": "Lo último del sector energético.",
+    "intro": "Cobertura diaria, en español, sobre el sector energético mexicano e internacional. Notas y análisis del equipo editorial de Energía MX.",
+    "categories": ["Todas", "Renovables", "Hidrocarburos", "Electricidad", "Geotermia", "Política", "Análisis"],
+    "articles": [
+      {
+        "slug": "subastas-renovables-regresan-2026",
+        "category": "Renovables",
+        "title": "Las subastas eléctricas regresan: qué está en juego para las renovables en 2026",
+        "dek": "Tras una pausa de varios años, el regreso de las subastas de largo plazo podría destrabar el pipeline solar y eólico detenido desde 2019.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-12",
+        "date_label": "12 jun 2026",
+        "read_min": 4,
+        "featured": true,
+        "body": [
+          "El sector eléctrico mexicano observa con atención la posible reactivación de las subastas de largo plazo, el mecanismo que entre 2015 y 2017 adjudicó algunos de los precios de energía solar y eólica más bajos del mundo. Las cifras de capacidad instalada sugieren que el país mantiene un rezago frente a sus metas de generación limpia.",
+          "Para los desarrolladores, la certidumbre de un contrato de largo plazo es la condición que destraba el financiamiento. Sin ese instrumento, buena parte del pipeline renovable permaneció en pausa. La discusión actual gira en torno al diseño del mecanismo: criterios de adjudicación, requisitos de contenido nacional y la integración de almacenamiento.",
+          "La señal que envíe la autoridad en los próximos meses será determinante para la inversión privada. Energía MX dará seguimiento puntual a las bases, los plazos y las reacciones del mercado."
+        ]
+      },
+      {
+        "slug": "demanda-electrica-record-verano-2026",
+        "category": "Electricidad",
+        "title": "Demanda eléctrica rumbo a un nuevo récord de verano",
+        "dek": "El operador del sistema anticipa picos de consumo históricos; la confiabilidad de la red vuelve al centro de la conversación.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-11",
+        "date_label": "11 jun 2026",
+        "read_min": 3,
+        "featured": false,
+        "body": [
+          "Con la llegada del verano, la demanda de electricidad en el Sistema Eléctrico Nacional se aproxima a máximos históricos. El reto operativo no es solo generar suficiente energía, sino mantener el margen de reserva que garantiza la confiabilidad en las horas pico.",
+          "La discusión técnica apunta a tres frentes: capacidad firme, robustez de la red de transmisión y la entrada de almacenamiento con baterías para desplazar los picos. La coordinación entre generación y demanda será clave en los próximos meses."
+        ]
+      },
+      {
+        "slug": "pemex-refinacion-balance-2026",
+        "category": "Hidrocarburos",
+        "title": "Pemex y el balance de la estrategia de refinación",
+        "dek": "Entre la producción de crudo y la apuesta por refinar más en territorio nacional, la petrolera ajusta su hoja de ruta financiera.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-10",
+        "date_label": "10 jun 2026",
+        "read_min": 5,
+        "featured": false,
+        "body": [
+          "La estrategia de refinación de Pemex sigue siendo uno de los temas más relevantes para las finanzas públicas y para el mercado de combustibles. El objetivo declarado de reducir importaciones de gasolinas convive con los retos de mantenimiento del sistema nacional de refinación.",
+          "Los analistas observan los indicadores de proceso de crudo, la utilización de las refinerías y el perfil de vencimientos de deuda. El equilibrio entre inversión, producción y disciplina financiera definirá el margen de maniobra de la empresa."
+        ]
+      },
+      {
+        "slug": "geotermia-nueva-generacion-mexico",
+        "category": "Geotermia",
+        "title": "Geotermia de nueva generación: la oportunidad que México no ha capitalizado",
+        "dek": "Avances en perforación profunda reabren la conversación sobre un recurso donde el país tiene ventajas geológicas notables.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-09",
+        "date_label": "09 jun 2026",
+        "read_min": 4,
+        "featured": false,
+        "body": [
+          "México concentra una porción relevante del recurso geotérmico global y un potencial supercrítico que pocos países poseen. Sin embargo, la capacidad instalada ha crecido despacio frente a otras tecnologías limpias.",
+          "Las nuevas técnicas de perforación y los sistemas geotérmicos mejorados están reduciendo costos y ampliando las zonas explotables. La pregunta de fondo es regulatoria: qué marco permitiría atraer inversión a proyectos de mayor riesgo exploratorio."
+        ]
+      },
+      {
+        "slug": "marco-regulatorio-almacenamiento",
+        "category": "Política",
+        "title": "Almacenamiento con baterías: el vacío regulatorio que frena la inversión",
+        "dek": "Sin una figura clara para el almacenamiento en el mercado eléctrico, los proyectos avanzan más lento de lo que permite la tecnología.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-08",
+        "date_label": "08 jun 2026",
+        "read_min": 4,
+        "featured": false,
+        "body": [
+          "El almacenamiento con baterías es una de las piezas que más rápido ha bajado de costo a nivel global, pero su despliegue en México depende de una definición regulatoria. Hoy no existe una figura plenamente clara que reconozca el almacenamiento como un participante específico del mercado.",
+          "La definición de reglas para el pago por capacidad firme y los servicios de regulación de frecuencia abriría la puerta a un segmento que puede mejorar la confiabilidad del sistema y absorber generación renovable variable."
+        ]
+      },
+      {
+        "slug": "comparativa-internacional-mercado-electrico",
+        "category": "Análisis",
+        "title": "Tres lecciones de mercado eléctrico que México podría adaptar",
+        "dek": "De la operación coordinada nórdica a las subastas tecnológicamente neutrales: prácticas internacionales leídas en clave mexicana.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-07",
+        "date_label": "07 jun 2026",
+        "read_min": 6,
+        "featured": false,
+        "body": [
+          "La integración de altos porcentajes de energía variable no es un problema exclusivo de México. Países con mayor penetración renovable han desarrollado soluciones de mercado y de operación que vale la pena examinar.",
+          "Tres elementos destacan: la operación coordinada entre sistemas vecinos, el diseño de subastas que incorporan criterios más allá del precio, y los esquemas de remuneración de capacidad firme. Ninguno se traslada de forma automática, pero cada uno ofrece pistas útiles para el caso nacional."
+        ]
+      },
+      {
+        "slug": "transmision-cuello-de-botella-renovables",
+        "category": "Electricidad",
+        "title": "Transmisión: el cuello de botella silencioso de las renovables",
+        "dek": "Sin nuevas líneas, la energía limpia generada en el norte no llega a los centros de consumo. La red define el techo de la transición.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-06",
+        "date_label": "06 jun 2026",
+        "read_min": 4,
+        "featured": false,
+        "body": [
+          "La capacidad de generación renovable suele crecer más rápido que la red que debe transportarla. El resultado es un cuello de botella: parques solares y eólicos listos para inyectar energía que no encuentran cómo llegar a los grandes centros de consumo.",
+          "Ampliar y modernizar la red de transmisión es, para varios analistas, una de las inversiones de mayor retorno para la transición. Sin ella, cada megavatio limpio adicional rinde menos de lo que podría."
+        ]
+      }
+    ]
+  },
+  "extras": {
+    "secciones": [
+      { "route": "#/datos", "k": "01", "title": "Datos en vivo", "desc": "El pulso del Sistema Eléctrico Nacional: mix de generación, renovables, intensidad de carbono, precios y demanda, actualizado a diario." },
+      { "route": "#/casos", "k": "02", "title": "Casos de Éxito", "desc": "Buenas prácticas internacionales de mercado, regulación y tecnología, leídas en clave mexicana." },
+      { "route": "#/politica", "k": "03", "title": "Política", "desc": "Briefs regulatorios comparados: qué deciden los gobiernos del mundo y qué significa para México." },
+      { "route": "#/mapa", "k": "04", "title": "Mapa", "desc": "Cartografía energética interactiva: capacidad instalada y proyectos emblemáticos por tecnología." },
+      { "route": "#/convocatorias", "k": "05", "title": "Convocatorias", "desc": "Oportunidades abiertas de financiamiento e inversión en infraestructura energética nacional." },
+      { "route": "#/agenda", "k": "06", "title": "Agenda", "desc": "Los próximos hitos del sector: congresos, fechas regulatorias y publicaciones clave." },
+      { "route": "#/noticias", "k": "07", "title": "Noticias", "desc": "Cobertura editorial diaria del sector energético mexicano e internacional." }
+    ],
+    "datos_indicadores": {
+      "label": "COMBUSTIBLES Y MERCADOS",
+      "note": "Precios de referencia que inciden en el costo de generación. Actualización diaria.",
+      "items": [
+        { "label": "Mezcla Mexicana", "value": "$68.4", "unit": "USD/bbl", "delta": "▼ -1.2% vs 7d", "trend": "down" },
+        { "label": "Gas natural · Henry Hub", "value": "$3.85", "unit": "USD/MMBtu", "delta": "▲ +2.1% vs 7d", "trend": "up-bad" },
+        { "label": "Brent", "value": "$74.1", "unit": "USD/bbl", "delta": "▲ +0.6% vs 7d", "trend": "up-bad" },
+        { "label": "Certificados CEL", "value": "$18.9", "unit": "USD/CEL", "delta": "= sin cambio", "trend": "flat" }
+      ]
+    },
+    "casos_why": "Ninguna de estas prácticas se traslada de forma automática. Las publicamos porque ofrecen pistas concretas —de diseño de mercado, regulación o despliegue tecnológico— que el caso mexicano puede adaptar a su propia ruta de transición.",
+    "casos_lens": "Lente editorial: priorizamos casos con resultados medibles, fuentes verificables y relevancia directa para el Sistema Eléctrico Nacional.",
+    "politica_context": "Para México, la discusión regulatoria sobre hidrocarburos no ocurre en el vacío: cada decisión se lee a la luz de la seguridad energética, la inversión privada y los compromisos climáticos. Esta serie compara marcos para informar, no para opinar.",
+    "politica_docs": [
+      { "title": "El mapa regulatorio del fracking", "ref": "DT-2026/14", "pages": "18 pp · ES/EN" },
+      { "title": "Diseño de subastas de capacidad firme", "ref": "DT-2026/11", "pages": "24 pp · ES" },
+      { "title": "Almacenamiento en el mercado eléctrico", "ref": "DT-2026/09", "pages": "16 pp · ES/EN" }
+    ],
+    "mapa_projects": [
+      { "name": "Puerto Peñasco", "state": "Sonora", "tech": "solar", "value": "720 MW" },
+      { "name": "Corredor La Ventosa", "state": "Oaxaca", "tech": "eolica", "value": "~2,000 MW" },
+      { "name": "Cerro Prieto", "state": "Baja California", "tech": "geotermia", "value": "570 MW" },
+      { "name": "Los Azufres", "state": "Michoacán", "tech": "geotermia", "value": "248 MW" },
+      { "name": "Chicoasén", "state": "Chiapas", "tech": "hidro", "value": "2,400 MW" },
+      { "name": "Laguna Verde", "state": "Veracruz", "tech": "nuclear", "value": "1,610 MW" }
+    ],
+    "convocatoria_criterios": [
+      "Proyectos de transmisión, almacenamiento, geotermia o eficiencia energética.",
+      "Vehículos institucionales elegibles: Fideicomisos, CKD y CERPI.",
+      "Gobernanza pública con criterios de adjudicación publicados.",
+      "Plazo de ejecución máximo de 36 meses.",
+      "Auditoría independiente a cargo de la ASF."
+    ],
+    "convocatoria_faq": [
+      { "q": "¿Quién puede participar?", "a": "Vehículos institucionales y desarrolladores con proyectos elegibles en las cuatro verticales del programa." },
+      { "q": "¿Cómo se selecciona?", "a": "Por un panel independiente con criterios publicados; el fallo se da a conocer el 15 de octubre de 2026." },
+      { "q": "¿Dónde consulto las bases?", "a": "En la sesión informativa del 19 de mayo de 2026 y en el documento de bases (PDF, 32 pp)." }
+    ],
+    "convocatoria_previas": [
+      { "year": "2025", "text": "Segunda edición: $6,400 MDP asignados a cinco proyectos de transmisión y almacenamiento." },
+      { "year": "2024", "text": "Primera edición: $4,100 MDP; arranque del programa de inversión mixta." }
+    ],
+    "agenda_intro": "Seguimiento de las fechas que mueven al sector: cierres regulatorios, congresos y publicaciones de referencia. Filtra por tipo para enfocar tu calendario."
+  },
+  "boletin": {
+    "kicker": "BOLETÍN EDITORIAL",
+    "title": "El sector energético, cada lunes a las 7:00 a.m.",
+    "cta": "SUSCRIBIRSE",
+    "note": "Análisis · Datos · Convocatorias · 12,400 suscriptores"
+  },
+  "footer": {
+    "brand": "Energía · MX",
+    "tagline": "Inteligencia editorial independiente sobre el sector energético mexicano e internacional. Publicación digital diaria.",
+    "columns": [
+      {
+        "title": "SECCIONES",
+        "links": [
+          "Datos en vivo",
+          "Casos de Éxito",
+          "Política",
+          "Mapa",
+          "Noticias"
+        ]
+      },
+      {
+        "title": "DATOS ABIERTOS",
+        "links": [
+          "Series CSV",
+          "API pública",
+          "Metodología",
+          "Licencia CC BY 4.0"
+        ]
+      },
+      {
+        "title": "ACERCA",
+        "links": [
+          "Equipo",
+          "Línea editorial",
+          "Contacto",
+          "Prensa"
+        ]
+      },
+      {
+        "title": "LEGAL",
+        "links": [
+          "Aviso de privacidad",
+          "Términos",
+          "Cookies"
+        ]
+      }
+    ],
+    "legal": "© 2026 Energía MX · ISSN 2954-0000 · Publicado en Ciudad de México · Hecho con materiales abiertos"
+  }
+}

@@ -1,0 +1,12 @@
+fecha,metrica,valor,unidad
+2026-06-12,mix_gas_natural,53,%
+2026-06-12,mix_eólica,13,%
+2026-06-12,mix_solar,9,%
+2026-06-12,mix_hidro,7,%
+2026-06-12,mix_carbón,7,%
+2026-06-12,mix_otros,11,%
+2026-06-12,% RENOVABLES AHORA,33,%
+2026-06-12,INTENSIDAD DE CARBONO,406,gCO₂/kWh
+2026-06-12,PRECIO PROMEDIO MWH,1395,MXN
+2026-06-12,DEMANDA PICO AYER,48.4,GW
+2026-06-12,capacidad_instalada,92.3,GW
