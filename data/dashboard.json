@@ -4,9 +4,9 @@
     "edition_date_iso": "2026-06-12",
     "edition_date_label": "12 JUNIO 2026",
     "volume": "Vol. II · Núm. 124",
-    "updated_label": "09:08 CDMX",
-    "updated_iso": "2026-06-12T09:08:48.501363",
-    "generated_at": "2026-06-12T09:08:48.501363",
+    "updated_label": "15:22 CDMX",
+    "updated_iso": "2026-06-12T15:22:20.013684",
+    "generated_at": "2026-06-12T15:22:20.013684",
     "issn": "2954-0000"
   },
   "hero": {
@@ -130,7 +130,13 @@
         "topic": "MERCADO ELÉCTRICO",
         "title": "Integración eólica al 67% de la red sin pérdida de confiabilidad.",
         "body": "Operación coordinada con Nord Pool y reservas hidráulicas nórdicas permiten absorber picos de generación variable.",
-        "date": "04 MAY 2026"
+        "date": "04 MAY 2026",
+        "slug": "dinamarca-integracion-eolica",
+        "body_full": [
+          "Dinamarca opera su sistema eléctrico con la energía eólica cubriendo hasta el 67% de la demanda en algunos periodos, sin que ello comprometa la confiabilidad del suministro. El logro no se explica solo por la cantidad de turbinas instaladas, sino por el diseño del mercado y la operación coordinada con sus vecinos.",
+          "La clave está en su integración al mercado nórdico Nord Pool y en el acceso a las reservas hidráulicas de Noruega y Suecia, que funcionan como una gran batería regional: cuando sobra viento, Dinamarca exporta; cuando falta, importa generación flexible. Esa coordinación transfronteriza convierte la variabilidad en un problema manejable.",
+          "Para México, la lección no es copiar el modelo, sino observar el principio: la firmeza de un sistema con alta penetración renovable depende tanto del mercado y la interconexión como de la capacidad instalada. La operación coordinada y las señales de precio correctas son tan importantes como los megavatios."
+        ]
       },
       {
         "flag": "🇩🇪",
@@ -138,7 +144,13 @@
         "topic": "SUBASTAS",
         "title": "Subastas tecnológicamente neutrales: $34/MWh promedio en 2025.",
         "body": "El rediseño 2024 incorporó criterios no-precio (cadena de suministro, ciberseguridad) sin erosionar competitividad.",
-        "date": "03 MAY 2026"
+        "date": "03 MAY 2026",
+        "slug": "alemania-subastas-neutrales",
+        "body_full": [
+          "Alemania adjudicó energía limpia a un precio promedio cercano a 34 dólares por MWh en 2025 mediante subastas tecnológicamente neutrales, un esquema en el que distintas tecnologías compiten por el mismo contrato bajo reglas comunes.",
+          "El rediseño de 2024 incorporó criterios más allá del precio, como la resiliencia de la cadena de suministro y la ciberseguridad, sin que ello erosionara la competitividad de los resultados. El mensaje es que una subasta puede perseguir varios objetivos a la vez si las reglas están bien calibradas.",
+          "El caso es pertinente para México, donde el regreso de las subastas de largo plazo está en la conversación. El diseño del mecanismo, qué se premia y cómo, define tanto el precio final como la calidad y la seguridad del portafolio que se contrata."
+        ]
       },
       {
         "flag": "🇨🇱",
@@ -146,7 +158,13 @@
         "topic": "ALMACENAMIENTO",
         "title": "2.1 GW de baterías desplazaron carbón en el norte minero.",
         "body": "Pago por capacidad firme + contratos PPA con mineras destrabaron el pipeline más rápido de Latinoamérica.",
-        "date": "02 MAY 2026"
+        "date": "02 MAY 2026",
+        "slug": "chile-almacenamiento-baterias",
+        "body_full": [
+          "Chile sumó alrededor de 2.1 GW de almacenamiento con baterías que desplazaron generación a carbón en el norte minero del país, una de las transiciones más rápidas de América Latina.",
+          "El detonante fue una combinación de pago por capacidad firme y contratos de largo plazo (PPA) con las grandes mineras, que dieron certidumbre de ingresos a los proyectos y destrabaron su financiamiento. El almacenamiento encontró un modelo de negocio claro.",
+          "México observa este caso con interés justo cuando autoriza sus primeros gigavatios de baterías al sector privado. La experiencia chilena sugiere que la señal regulatoria y los contratos, más que la tecnología, son lo que acelera el despliegue."
+        ]
       },
       {
         "flag": "🇦🇺",
@@ -154,7 +172,13 @@
         "topic": "DER",
         "title": "3.6M de techos solares: gobernanza de recursos distribuidos.",
         "body": "AEMO instituyó estándares de inversores compatibles con red débil tras el incidente de Australia del Sur.",
-        "date": "30 ABR 2026"
+        "date": "30 ABR 2026",
+        "slug": "australia-der-techos-solares",
+        "body_full": [
+          "Australia gestiona más de 3.6 millones de techos solares, una de las mayores flotas de generación distribuida del mundo, lo que la obligó a desarrollar una gobernanza específica para estos recursos.",
+          "Tras un incidente de estabilidad en Australia del Sur, el operador AEMO instituyó estándares para que los inversores domésticos sean compatibles con una red débil y puedan responder de forma ordenada ante perturbaciones. La regulación técnica convirtió un riesgo en un activo.",
+          "Para México, donde la generación distribuida crece en techos comerciales y residenciales, el caso muestra que la masificación solar exige reglas técnicas claras para los inversores y una visibilidad operativa que hoy es incipiente."
+        ]
       },
       {
         "flag": "🇬🇧",
@@ -162,7 +186,13 @@
         "topic": "CFD",
         "title": "Contratos por Diferencia: 14 GW eólico marino contratado en AR6.",
         "body": "Ajuste al strike price tras AR5 vacío restauró participación; nuevas pots para mareomotriz y geotermia.",
-        "date": "29 ABR 2026"
+        "date": "29 ABR 2026",
+        "slug": "reino-unido-cfd-eolico-marino",
+        "body_full": [
+          "El Reino Unido contrató 14 GW de energía eólica marina en su sexta ronda de Contratos por Diferencia (CfD), el instrumento con el que el Estado garantiza un precio de referencia a los generadores.",
+          "El ajuste al precio de ejercicio, tras una ronda anterior que quedó desierta, restauró la participación de los desarrolladores y abrió nuevas categorías para tecnologías emergentes como la mareomotriz y la geotermia. El mecanismo demostró capacidad de corrección.",
+          "El CfD es una referencia útil para México al pensar instrumentos que den certidumbre de ingresos sin transferir todo el riesgo al consumidor. La lección británica es que estos esquemas requieren calibración periódica para seguir atrayendo inversión."
+        ]
       },
       {
         "flag": "🇲🇦",
@@ -170,7 +200,13 @@
         "topic": "CSP",
         "title": "Noor Ouarzazate como ancla de exportación verde al sur de Europa.",
         "body": "El complejo termosolar respalda el cable submarino Xlinks y posiciona al país como hub de hidrógeno.",
-        "date": "28 ABR 2026"
+        "date": "28 ABR 2026",
+        "slug": "marruecos-noor-csp",
+        "body_full": [
+          "Marruecos consolidó el complejo termosolar Noor Ouarzazate como ancla de una estrategia de exportación de energía verde hacia el sur de Europa, apostando por la tecnología de concentración solar (CSP) con almacenamiento térmico.",
+          "El proyecto respalda iniciativas de interconexión como el cable submarino Xlinks y posiciona al país como un potencial hub de hidrógeno verde, aprovechando su recurso solar y su cercanía con los mercados europeos.",
+          "Para México, con un recurso solar comparable y vecindad con un gran mercado, el caso ilustra cómo la infraestructura de generación limpia puede pensarse no solo para el consumo interno, sino como plataforma de exportación e integración regional."
+        ]
       }
     ]
   },
@@ -354,7 +390,262 @@
         "tech": "nuclear",
         "value": "1,610 MW"
       }
-    ]
+    ],
+    "top5_by_tech": {
+      "solar": [
+        {
+          "rank": 1,
+          "country": "China",
+          "value": "430 GW",
+          "lat": 35,
+          "lon": 103,
+          "tech": "solar"
+        },
+        {
+          "rank": 2,
+          "country": "EE.UU.",
+          "value": "138 GW",
+          "lat": 39,
+          "lon": -98,
+          "tech": "solar"
+        },
+        {
+          "rank": 3,
+          "country": "Alemania",
+          "value": "88 GW",
+          "lat": 51,
+          "lon": 10,
+          "tech": "solar"
+        },
+        {
+          "rank": 4,
+          "country": "Japón",
+          "value": "79 GW",
+          "lat": 36,
+          "lon": 138,
+          "tech": "solar"
+        },
+        {
+          "rank": 5,
+          "country": "India",
+          "value": "73 GW",
+          "lat": 22,
+          "lon": 79,
+          "tech": "solar"
+        }
+      ],
+      "eolica": [
+        {
+          "rank": 1,
+          "country": "China",
+          "value": "440 GW",
+          "lat": 35,
+          "lon": 103,
+          "tech": "eolica"
+        },
+        {
+          "rank": 2,
+          "country": "EE.UU.",
+          "value": "150 GW",
+          "lat": 39,
+          "lon": -98,
+          "tech": "eolica"
+        },
+        {
+          "rank": 3,
+          "country": "Alemania",
+          "value": "70 GW",
+          "lat": 51,
+          "lon": 10,
+          "tech": "eolica"
+        },
+        {
+          "rank": 4,
+          "country": "India",
+          "value": "45 GW",
+          "lat": 22,
+          "lon": 79,
+          "tech": "eolica"
+        },
+        {
+          "rank": 5,
+          "country": "España",
+          "value": "31 GW",
+          "lat": 40,
+          "lon": -3.7,
+          "tech": "eolica"
+        }
+      ],
+      "geotermia": [
+        {
+          "rank": 1,
+          "country": "EE.UU.",
+          "value": "3.9 GW",
+          "lat": 39,
+          "lon": -98,
+          "tech": "geotermia"
+        },
+        {
+          "rank": 2,
+          "country": "Indonesia",
+          "value": "2.4 GW",
+          "lat": -2,
+          "lon": 118,
+          "tech": "geotermia"
+        },
+        {
+          "rank": 3,
+          "country": "Filipinas",
+          "value": "1.9 GW",
+          "lat": 12,
+          "lon": 122,
+          "tech": "geotermia"
+        },
+        {
+          "rank": 4,
+          "country": "Turquía",
+          "value": "1.7 GW",
+          "lat": 39,
+          "lon": 35,
+          "tech": "geotermia"
+        },
+        {
+          "rank": 5,
+          "country": "Nueva Zelanda",
+          "value": "1.0 GW",
+          "lat": -41,
+          "lon": 174,
+          "tech": "geotermia"
+        }
+      ],
+      "hidro": [
+        {
+          "rank": 1,
+          "country": "China",
+          "value": "420 GW",
+          "lat": 35,
+          "lon": 103,
+          "tech": "hidro"
+        },
+        {
+          "rank": 2,
+          "country": "Brasil",
+          "value": "110 GW",
+          "lat": -10,
+          "lon": -52,
+          "tech": "hidro"
+        },
+        {
+          "rank": 3,
+          "country": "EE.UU.",
+          "value": "102 GW",
+          "lat": 39,
+          "lon": -98,
+          "tech": "hidro"
+        },
+        {
+          "rank": 4,
+          "country": "Canadá",
+          "value": "82 GW",
+          "lat": 56,
+          "lon": -106,
+          "tech": "hidro"
+        },
+        {
+          "rank": 5,
+          "country": "India",
+          "value": "52 GW",
+          "lat": 22,
+          "lon": 79,
+          "tech": "hidro"
+        }
+      ],
+      "nuclear": [
+        {
+          "rank": 1,
+          "country": "EE.UU.",
+          "value": "97 GW",
+          "lat": 39,
+          "lon": -98,
+          "tech": "nuclear"
+        },
+        {
+          "rank": 2,
+          "country": "Francia",
+          "value": "61 GW",
+          "lat": 46,
+          "lon": 2,
+          "tech": "nuclear"
+        },
+        {
+          "rank": 3,
+          "country": "China",
+          "value": "58 GW",
+          "lat": 35,
+          "lon": 103,
+          "tech": "nuclear"
+        },
+        {
+          "rank": 4,
+          "country": "Japón",
+          "value": "33 GW",
+          "lat": 36,
+          "lon": 138,
+          "tech": "nuclear"
+        },
+        {
+          "rank": 5,
+          "country": "Rusia",
+          "value": "28 GW",
+          "lat": 61,
+          "lon": 90,
+          "tech": "nuclear"
+        }
+      ],
+      "fosiles": [
+        {
+          "rank": 1,
+          "country": "China",
+          "value": "1,200 GW",
+          "lat": 35,
+          "lon": 103,
+          "tech": "fosiles"
+        },
+        {
+          "rank": 2,
+          "country": "EE.UU.",
+          "value": "820 GW",
+          "lat": 39,
+          "lon": -98,
+          "tech": "fosiles"
+        },
+        {
+          "rank": 3,
+          "country": "India",
+          "value": "280 GW",
+          "lat": 22,
+          "lon": 79,
+          "tech": "fosiles"
+        },
+        {
+          "rank": 4,
+          "country": "Rusia",
+          "value": "170 GW",
+          "lat": 61,
+          "lon": 90,
+          "tech": "fosiles"
+        },
+        {
+          "rank": 5,
+          "country": "Japón",
+          "value": "150 GW",
+          "lat": 36,
+          "lon": 138,
+          "tech": "fosiles"
+        }
+      ]
+    },
+    "top5_source": "Fuente: IRENA, IEA, Ember (2025). Cifras aproximadas de capacidad instalada."
   },
   "geotermia": {
     "kicker": "PULSO · INNOVACIÓN GEOTÉRMICA",
@@ -964,12 +1255,6 @@
         "desc": "Cartografía energética interactiva: capacidad instalada y proyectos emblemáticos por tecnología."
       },
       {
-        "route": "#/convocatorias",
-        "k": "05",
-        "title": "Convocatorias",
-        "desc": "Oportunidades abiertas de financiamiento e inversión en infraestructura energética nacional."
-      },
-      {
         "route": "#/agenda",
         "k": "06",
         "title": "Agenda",
@@ -988,31 +1273,31 @@
       "items": [
         {
           "label": "Mezcla Mexicana",
-          "value": "$68.4",
+          "value": "$64.1",
           "unit": "USD/bbl",
-          "delta": "▼ -1.2% vs 7d",
+          "delta": "▼ -3.5% vs 7d",
           "trend": "down"
         },
         {
           "label": "Gas natural · Henry Hub",
-          "value": "$3.85",
+          "value": "$3.42",
           "unit": "USD/MMBtu",
-          "delta": "▲ +2.1% vs 7d",
-          "trend": "up-bad"
+          "delta": "▼ -2.0% vs 7d",
+          "trend": "down"
         },
         {
           "label": "Brent",
-          "value": "$74.1",
+          "value": "$73.6",
           "unit": "USD/bbl",
-          "delta": "▲ +0.6% vs 7d",
-          "trend": "up-bad"
+          "delta": "▼ -3.7% vs 7d",
+          "trend": "down"
         },
         {
           "label": "Certificados CEL",
-          "value": "$18.9",
+          "value": "$18.5",
           "unit": "USD/CEL",
-          "delta": "= sin cambio",
-          "trend": "flat"
+          "delta": "▼ -4.6% vs 7d",
+          "trend": "down"
         }
       ]
     },

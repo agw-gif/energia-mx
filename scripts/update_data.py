@@ -150,6 +150,37 @@ def write_csv(sen, date_str):
         w.writerow([date_str, "capacidad_instalada", sen["capacity"]["value"], sen["capacity"]["unit"]])
 
 
+def evolve_indicadores(extras, date_str):
+    """Combustibles y mercados — precios que se mueven a DIARIO (caminata determinista)."""
+    ind = extras.get("datos_indicadores")
+    if not ind:
+        return
+    w7 = (dt.date.fromisoformat(date_str) - dt.timedelta(days=7)).isoformat()
+    # label: (base, spread, lo, hi, decimales)
+    cfg = {
+        "Mezcla Mexicana": (68.4, 4.5, 55, 86, 1),
+        "Gas natural · Henry Hub": (3.85, 0.45, 2.4, 5.6, 2),
+        "Brent": (74.1, 4.0, 62, 92, 1),
+        "Certificados CEL": (18.9, 1.6, 12, 26, 1),
+    }
+    for it in ind["items"]:
+        c = cfg.get(it["label"])
+        if not c:
+            continue
+        base, spread, lo, hi, dec = c
+        v = walk(date_str, "ind:" + it["label"], base, spread, lo, hi, dec)
+        v7 = walk(w7, "ind:" + it["label"], base, spread, lo, hi, dec)
+        pfx = "$" if it.get("value", "").startswith("$") else ""
+        it["value"] = f"{pfx}{v:.{dec}f}" if dec else f"{pfx}{int(v)}"
+        rel = ((v - v7) / v7 * 100) if v7 else 0
+        if abs(rel) < 0.2:
+            it["delta"], it["trend"] = "= sin cambio", "flat"
+        else:
+            up = rel >= 0
+            it["delta"] = f"{'▲' if up else '▼'} {'+' if up else '-'}{abs(rel):.1f}% vs 7d"
+            it["trend"] = "up-bad" if up else "down"
+
+
 def main():
     date_str = sys.argv[1] if len(sys.argv) > 1 else cdmx_now().date().isoformat()
     d = dt.date.fromisoformat(date_str)
@@ -168,6 +199,8 @@ def main():
     data["meta"]["volume"] = f"Vol. II · Núm. {num}"
 
     data["sen"] = evolve_sen(data["sen"], date_str)
+    if "extras" in data:
+        evolve_indicadores(data["extras"], date_str)
     data["agenda"] = prune_agenda(data["agenda"], d)
     write_csv(data["sen"], date_str)
 

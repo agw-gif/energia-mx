@@ -2,6 +2,7 @@
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const TECH_COLORS = { solar: "#B07E1C", eolica: "#33564B", geotermia: "#9a4a2c", hidro: "#27496B", nuclear: "#5B4F3B", fosiles: "#3a352e" };
+const TECH_NAME = { solar: "Solar", eolica: "Eólica", geotermia: "Geotermia", hidro: "Hidro", nuclear: "Nuclear", fosiles: "Fósiles" };
 const deltaCls = (t) => (t === "up" || t === "down-good") ? "up" : t === "up-bad" ? "bad" : t === "down" ? "down" : "";
 
 const CAT_COLORS = { "Renovables": "#33564B", "Hidrocarburos": "#7A560F", "Electricidad": "#27496B", "Geotermia": "#9a4a2c", "Política": "#B07E1C", "Análisis": "#4A4036", "Casos de Éxito": "#33564B" };
@@ -45,7 +46,6 @@ const ROUTES = {
   "casos": casosPage,
   "politica": politicaPage,
   "mapa": mapaPage,
-  "convocatorias": convocatoriaPage,
   "agenda": agendaPage,
   "noticias": () => blogPage(DATA.noticias),
 };
@@ -55,6 +55,7 @@ function render() {
   const parts = hash.replace(/^\//, "").split("/");
   let html, isHome = false;
   if (parts[0] === "nota" && parts[1]) html = articlePage(parts[1]);
+  else if (parts[0] === "caso" && parts[1]) html = casoPage(parts[1]);
   else { const fn = ROUTES[parts[0] || ""] || ROUTES[""]; isHome = (fn === homePage); html = fn(); }
   document.body.classList.toggle("home", isHome);
   $("#app").innerHTML = html + boletin(DATA.boletin) + footer(DATA.footer);
@@ -170,8 +171,24 @@ function casosPage() {
       <div class="cards" style="margin-top:24px">${a.cases.map((c, i) => `<div class="card" style="--accent:${ACCENTS[i % ACCENTS.length]}">
         <div class="top"><span class="flag">${c.flag}</span><span class="ct">${esc(c.country)} · ${esc(c.topic)}</span></div>
         <h3>${esc(c.title)}</h3><p>${esc(c.body)}</p>
-        <div class="foot"><span class="date">${esc(c.date)}</span><a class="link-amber" href="#/noticias">Leer caso →</a></div></div>`).join("")}</div>
+        <div class="foot"><span class="date">${esc(c.date)}</span><a class="link-amber" href="#/caso/${esc(c.slug)}">Leer caso →</a></div></div>`).join("")}</div>
     </div></section>`;
+}
+
+/* ---------------- CASO DE ÉXITO (mini-página) ---------------- */
+function casoPage(slug) {
+  const c = (DATA.analisis.cases || []).find(x => x.slug === slug);
+  if (!c) return `<div class="page-top"><div class="wrap"><h1>Caso no encontrado</h1><a class="back" href="#/casos">← Volver a Casos de Éxito</a></div></div>`;
+  const body = c.body_full || [c.body];
+  const src = (c.sources && c.sources.length) ? c.sources : null;
+  return `<div class="page-top"><div class="wrap article">
+    <div class="cat">${c.flag || ""} ${esc(c.country)} · ${esc(c.topic)}</div>
+    <h1>${esc(c.title)}</h1>
+    <div class="ameta">CASO DE ÉXITO · CURADURÍA ENERGÍA MX · ${esc(c.date)}</div>
+    <div class="cover" style="background:${catGrad("Casos de Éxito")}"></div>
+    <div class="prose">${body.map(p => `<p>${esc(p)}</p>`).join("")}</div>
+    <a class="back" href="#/casos">← Volver a Casos de Éxito</a>
+  </div></div>`;
 }
 
 /* ---------------- POLÍTICA ---------------- */
@@ -180,7 +197,7 @@ function politicaPage() {
   return pageHead(p.kicker, p.title, p.intro)
     + `<section class="block first"><div class="wrap">
       <div class="pol-grid">
-        <div><div class="pol-stats">${p.stats.map(s => `<div class="s"><div class="v">${esc(s.value.split(' ')[0])}</div><div class="l">${esc(s.label)}</div></div>`).join("")}</div>
+        <div><div class="pol-stats">${p.stats.map((s, i) => `<div class="s" style="--accent:${ACCENTS[i % ACCENTS.length]}"><div class="v">${esc(s.value.split(' ')[0])}</div><div class="l">${esc(s.label)}</div></div>`).join("")}</div>
           <div class="doc"><span class="dt">${esc(p.doc_ref)}</span><a class="btn" href="#/noticias">PDF →</a></div></div>
         <div class="pol-table">${p.rows.map(r => `<div class="r"><div class="code">${esc(r.code)}</div>
           <div><div class="cn">${esc(r.country)}</div><div class="st">${esc(r.status)}</div></div><div class="nt">${esc(r.notes)}</div></div>`).join("")}</div>
@@ -198,14 +215,15 @@ function mapaPage() {
   const mp = DATA.mapa, e = DATA.extras;
   return pageHead(mp.kicker, mp.title, mp.intro)
     + `<section class="block first"><div class="wrap">
-      <div class="map-head" id="map-filters"><span class="chip active" data-tech="all">Todas</span>
-        ${mp.filters.map(f => `<span class="chip" data-tech="${f.key}">${esc(f.label)}</span>`).join("")}</div>
+      <div class="map-head" id="map-filters">
+        ${mp.filters.map(f => `<span class="chip ${f.key === 'solar' ? 'active' : ''}" data-tech="${f.key}">${esc(f.label)}</span>`).join("")}</div>
       <div class="map-grid"><div id="map"></div>
         <div class="map-side">
-          <div class="hl"><div class="kicker">${esc(mp.highlight.label)}</div><div class="ht">${esc(mp.highlight.title)}</div><p>${esc(mp.highlight.body)}</p></div>
-          <div class="top5"><div class="kicker" style="margin-bottom:8px">${esc(mp.top5.label)}</div>
-            ${mp.top5.rows.map(r => `<div class="row"><span>${r.rank}. ${esc(r.country)}</span><span class="v">${esc(r.value)}</span></div>`).join("")}
-            <div class="mono" style="color:var(--warm);margin-top:12px">${esc(mp.top5.source)}</div></div></div>
+          <div class="top5"><div class="kicker" id="top5-title" style="margin-bottom:8px">TOP 5 · SOLAR</div>
+            <div id="top5-rows"></div>
+            <div class="mono" style="color:var(--warm);margin-top:14px">${esc(mp.top5_source || '')}</div></div>
+          <div class="hl"><div class="kicker">CÓMO LEER EL MAPA</div><p>Filtra por tecnología: el Top 5 mundial y los puntos del mapa se actualizan con tu selección.</p></div>
+        </div>
       </div>
     </div></section>
     <section class="block alt"><div class="wrap">
@@ -217,16 +235,31 @@ function mapaPage() {
 }
 function initMap(mp) {
   if (!window.L || !$("#map")) return;
-  MAP = L.map("map", { scrollWheelZoom: false, attributionControl: false }).setView([24, -40], 2);
+  MAP = L.map("map", { scrollWheelZoom: false, attributionControl: false }).setView([20, 0], 2);
   L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png", { maxZoom: 8, minZoom: 1 }).addTo(MAP);
-  MARKERS = [];
-  const all = [...mp.markers, ...mp.top5.rows.map(r => ({ name: r.country + " · " + r.value, lat: r.lat, lon: r.lon, tech: r.tech, value: r.value }))];
-  all.forEach(m => { const color = TECH_COLORS[m.tech] || "#5B4F3B";
-    const mk = L.circleMarker([m.lat, m.lon], { radius: 7, color, weight: 2, fillColor: color, fillOpacity: .6 }).bindTooltip(`<b>${m.name}</b><br>${m.value || ""}`, { direction: "top" });
-    mk._tech = m.tech; mk.addTo(MAP); MARKERS.push(mk); });
-  $("#map-filters").addEventListener("click", e => { const chip = e.target.closest(".chip"); if (!chip) return;
+  function renderTech(tech) {
+    MARKERS.forEach(m => MAP.removeLayer(m)); MARKERS = [];
+    const rows = (mp.top5_by_tech && mp.top5_by_tech[tech]) || [];
+    const color = TECH_COLORS[tech] || "#5B4F3B";
+    rows.forEach(r => {
+      const mk = L.circleMarker([r.lat, r.lon], { radius: 9, color, weight: 2, fillColor: color, fillOpacity: .6 })
+        .bindTooltip(`<b>${r.rank}. ${r.country}</b><br>${r.value}`, { direction: "top" });
+      mk.addTo(MAP); MARKERS.push(mk);
+    });
+    (mp.markers || []).filter(m => m.tech === tech).forEach(m => {
+      const mk = L.circleMarker([m.lat, m.lon], { radius: 6, color, weight: 2, fillColor: "#F5F0E8", fillOpacity: .95 })
+        .bindTooltip(`<b>${m.name}</b><br>${m.value || ""}`, { direction: "top" });
+      mk.addTo(MAP); MARKERS.push(mk);
+    });
+    const tr = $("#top5-rows"); if (tr) tr.innerHTML = rows.map(r => `<div class="row"><span>${r.rank}. ${esc(r.country)}</span><span class="v">${esc(r.value)}</span></div>`).join("");
+    const tt = $("#top5-title"); if (tt) tt.textContent = "TOP 5 · " + (TECH_NAME[tech] || tech).toUpperCase();
+  }
+  renderTech("solar");
+  $("#map-filters").addEventListener("click", e => {
+    const chip = e.target.closest(".chip"); if (!chip) return;
     $("#map-filters").querySelectorAll(".chip").forEach(c => c.classList.remove("active")); chip.classList.add("active");
-    const t = chip.dataset.tech; MARKERS.forEach(mk => (t === "all" || mk._tech === t) ? mk.addTo(MAP) : MAP.removeLayer(mk)); });
+    renderTech(chip.dataset.tech);
+  });
 }
 
 /* ---------------- GEOTERMIA (sección de home) ---------------- */

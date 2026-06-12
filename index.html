@@ -318,6 +318,10 @@ footer.site{background:var(--ink);color:#cfc6b8;padding:70px 0 40px}
 .pol-stats .s:nth-child(2) .v{color:var(--blue)}
 .pol-stats .s:nth-child(3) .v{color:var(--teal)}
 .pol-stats .s:nth-child(4) .v{color:#9a4a2c}
+.pol-stats .s{border-top:3px solid var(--accent,#B07E1C)}
+.pol-table .r{transition:background .15s} .pol-table .r:hover{background:#fbf7f0}
+.pol-table .code{color:var(--amber-deep)}
+.pol-table .st{display:inline-block;margin-top:6px;padding:3px 9px;border-radius:3px;background:rgba(176,126,28,.14);color:var(--amber-deep);font-family:var(--mono);font-size:9.5px;letter-spacing:.05em;border:0}
 .cell .big,.cap-strip .big,.ministats .m .v{color:var(--ink)}
 /* overview con ícono + barra de color superior */
 .ov{border-top:3px solid var(--accent,#B07E1C)}
@@ -349,8 +353,7 @@ footer.site{background:var(--ink);color:#cfc6b8;padding:70px 0 40px}
     <a class="brand" href="#/">Energía <small>· MX</small></a>
     <nav class="nav-links" id="navlinks">
       <a href="#/datos">Datos</a><a href="#/casos">Casos de Éxito</a><a href="#/politica">Política</a>
-      <a href="#/mapa">Mapa</a><a href="#/convocatorias">Convocatorias</a>
-      <a href="#/agenda">Agenda</a><a href="#/noticias">Noticias</a>
+      <a href="#/mapa">Mapa</a><a href="#/agenda">Agenda</a><a href="#/noticias">Noticias</a>
     </nav>
     <div class="nav-right">
       <span class="lang">ES / EN</span>
@@ -362,6 +365,6 @@ footer.site{background:var(--ink);color:#cfc6b8;padding:70px 0 40px}
 <main id="app"><!-- rendered by app.js --></main>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="assets/app.js?v=11"></script>
+<script src="assets/app.js?v=12"></script>
 </body>
 </html>
