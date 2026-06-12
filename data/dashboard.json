@@ -483,8 +483,352 @@
     "kicker": "NOTICIAS · ENERGÍA",
     "title": "Lo último del sector energético.",
     "intro": "Cobertura diaria, en español, sobre el sector energético mexicano e internacional. Notas y análisis del equipo editorial de Energía MX.",
-    "categories": ["Todas", "Renovables", "Hidrocarburos", "Electricidad", "Geotermia", "Política", "Análisis"],
+    "categories": [
+      "Todas",
+      "Renovables",
+      "Hidrocarburos",
+      "Electricidad",
+      "Geotermia",
+      "Política",
+      "Análisis"
+    ],
     "articles": [
+      {
+        "slug": "mexico-autoriza-1488-mw-baterias-sector-privado",
+        "category": "Renovables",
+        "title": "México autoriza 1,488 MW de baterías al sector privado y prepara nueva ronda",
+        "dek": "El almacenamiento entra de lleno a la planeación eléctrica nacional con una primera tanda de proyectos privados.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-12",
+        "date_label": "12 jun 2026",
+        "read_min": 2,
+        "featured": true,
+        "cover": "assets/news/mexico-autoriza-1488-mw-baterias-sector-privado.jpg",
+        "body": [
+          "México dio luz verde al sector privado para desarrollar 1,488 MW de almacenamiento con baterías (BESS) y alista una nueva ronda de asignaciones para enero, de acuerdo con Energía Estratégica. Es una de las señales más claras de que el almacenamiento dejó de ser un complemento marginal para convertirse en pieza central de la operación del sistema.",
+          "La decisión llega en un momento en que la autoridad busca dar firmeza a la creciente generación solar y eólica, cuya variabilidad obliga a contar con respaldo que entregue energía en las horas pico. El año 2026 ha sido descrito por el sector como el del despegue del almacenamiento en México, con nuevas disposiciones regulatorias que definen cómo integrar baterías al Sistema Eléctrico Nacional, según consignó Mining México.",
+          "Para los desarrolladores, la certidumbre de una asignación es la condición que destraba el financiamiento. La combinación de solar, eólica y baterías se perfila como el nuevo estándar técnico para reducir los recortes de generación y aprovechar la capacidad limpia ya instalada. La nueva ronda anunciada para enero será la prueba de qué tan rápido puede crecer este segmento.",
+          "El reto siguiente es de ejecución: conectar estos proyectos a una red de transmisión que también requiere inversión. Energía MX dará seguimiento a las bases de la próxima ronda y a los primeros proyectos en construcción."
+        ],
+        "sources": [
+          {
+            "title": "Energía Estratégica — 1,488 MW de baterías al sector privado",
+            "url": "https://energiaestrategica.com/mexico-da-luz-verde-al-sector-privado-por-1488-mw-de-baterias-y-prepara-nueva-ronda-para-enero/"
+          },
+          {
+            "title": "Mining México — 2026, el año del almacenamiento energético",
+            "url": "https://miningmexico.com/2026-el-ano-del-almacenamiento-energetico-y-las-tendencias-que-reconfiguraran-el-sector-electrico-en-mexico/"
+          }
+        ]
+      },
+      {
+        "slug": "irena-costo-solar-almacenamiento-firme-54-dolares-mwh",
+        "category": "Renovables",
+        "title": "IRENA: el costo de solar con almacenamiento firme cae a 54 dólares por MWh",
+        "dek": "La energía limpia despachable se acerca en costo a la generación fósil, según la agencia internacional.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-12",
+        "date_label": "12 jun 2026",
+        "read_min": 2,
+        "featured": false,
+        "cover": "assets/news/irena-costo-solar-almacenamiento-firme-54-dolares-mwh.jpg",
+        "body": [
+          "El costo nivelado de la energía solar acompañada de almacenamiento firme descendió a 54 dólares por megavatio-hora, de acuerdo con la Agencia Internacional de Energías Renovables (IRENA), reportó pv magazine México. La cifra marca un punto de inflexión: la energía limpia despachable empieza a competir de frente con la generación fósil en costo.",
+          "El dato es relevante para México, donde la discusión ya no es solo cuánta capacidad solar instalar, sino cómo darle firmeza para que esté disponible en las horas de mayor demanda. La caída de costos de las baterías es uno de los factores que más rápido ha cambiado la ecuación a nivel global.",
+          "IRENA señala que la electricidad se consolida como el vector energético dominante del sistema internacional y que el auge de renovables abre nuevas oportunidades de inversión. Para los mercados emergentes, el reto está en traducir esos costos a la baja en proyectos financiables y conectados a la red.",
+          "En el caso mexicano, la combinación de un recurso solar de los mejores del mundo y costos de almacenamiento a la baja perfila una ventana de oportunidad, siempre que la regulación y la red acompañen. Energía MX seguirá la evolución de estos costos y su efecto en el pipeline nacional."
+        ],
+        "sources": [
+          {
+            "title": "pv magazine México — IRENA: solar + almacenamiento a 54 USD/MWh",
+            "url": "https://www.pv-magazine-mexico.com/2026/05/06/los-costos-de-la-energia-solar-y-el-almacenamiento-firme-caen-a-54-dolares-mwh-dice-irena/"
+          },
+          {
+            "title": "IRENA",
+            "url": "https://www.irena.org/"
+          }
+        ]
+      },
+      {
+        "slug": "pemex-eleva-refinacion-primer-trimestre-2026",
+        "category": "Hidrocarburos",
+        "title": "Pemex eleva 21.9% el proceso de refinación en el primer trimestre de 2026",
+        "dek": "El Sistema Nacional de Refinación alcanza su mayor nivel en más de una década, impulsado por Olmeca y Tula.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-12",
+        "date_label": "12 jun 2026",
+        "read_min": 2,
+        "featured": false,
+        "cover": "assets/news/pemex-eleva-refinacion-primer-trimestre-2026.jpg",
+        "body": [
+          "Pemex incrementó 21.9% el proceso de refinación de crudo en el primer trimestre de 2026, hasta un promedio de un millón 141 mil barriles diarios, de acuerdo con Energía Hoy. Es uno de los niveles más altos registrados en más de una década y refleja la estrategia oficial de recuperación del Sistema Nacional de Refinación.",
+          "El crecimiento se explica principalmente por la refinería Olmeca, que aportó un incremento de 164 mil barriles diarios, y por Tula, que sumó 39 mil barriles gracias a la operación continua de su planta coquizadora puesta en marcha en julio de 2025. La meta declarada es reducir la importación de combustibles y procesar más crudo en territorio nacional.",
+          "En paralelo, Pemex informó avances en su consolidación operativa y financiera, y anunció para 2026 una inversión productiva de 425 mil millones de pesos, 34% superior a la del año previo, con mayor peso en exploración, producción y refinación.",
+          "El seguimiento de los indicadores de proceso de crudo y de la utilización de las refinerías permitirá evaluar si la mayor refinación se sostiene a lo largo del año y se traduce en menores importaciones. Energía MX dará seguimiento a los reportes operativos de la empresa."
+        ],
+        "sources": [
+          {
+            "title": "Energía Hoy — Pemex incrementa refinación 1T 2026",
+            "url": "https://energiahoy.com/oil-gas/pemex-incrementa-refinacion-y-reduce-importacion-de-combustibles-en-el-1er-trimestre-de-2026/"
+          },
+          {
+            "title": "Pemex — Sala de prensa, boletín junio 2026",
+            "url": "https://www.pemex.com/saladeprensa/boletines_nacionales/Paginas/2026_06-nacional.aspx"
+          }
+        ]
+      },
+      {
+        "slug": "petrobras-pemex-amplian-alianza-refinacion-gas-biocombustibles",
+        "category": "Hidrocarburos",
+        "title": "Petrobras y Pemex amplían su alianza a refinación, gas y biocombustibles",
+        "dek": "El acuerdo bilateral en negociación crece más allá de la exploración y producción de crudo.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-12",
+        "date_label": "12 jun 2026",
+        "read_min": 2,
+        "featured": false,
+        "cover": "assets/news/petrobras-pemex-amplian-alianza-refinacion-gas-biocombustibles.jpg",
+        "body": [
+          "Petrobras informó que el acuerdo estratégico que negocia con Pemex tendrá un alcance mayor al planeado, al incorporar refinación, extracción de gas natural y biocombustibles, además de la exploración y producción de crudo, de acuerdo con El Imparcial. La alianza apunta a sumar proyectos conjuntos entre las dos mayores petroleras de América Latina.",
+          "Para México, la cooperación con Petrobras ofrece acceso a experiencia técnica en aguas profundas y en biocombustibles, dos frentes en los que la empresa brasileña ha invertido durante años. El gas natural, descrito por Pemex como el combustible de la transición, es uno de los ejes donde ambas compañías podrían encontrar complementariedad.",
+          "El movimiento se da mientras Pemex busca elevar su producción de gas y sostener la mayor refinación lograda al inicio del año. La ampliación del acuerdo sugiere que la colaboración regional gana terreno como vía para compartir riesgo e inversión en proyectos de gran escala.",
+          "Los términos finales del acuerdo definirán su alcance real. Energía MX seguirá las definiciones sobre los proyectos específicos y los montos comprometidos por cada parte."
+        ],
+        "sources": [
+          {
+            "title": "El Imparcial — Petrobras y Pemex amplían acuerdo",
+            "url": "https://www.elimparcial.com/mexico/2026/05/20/petrobras-y-pemex-expanden-su-acuerdo-estrategico-la-alianza-bilateral-sumara-proyectos-de-refinacion-extraccion-de-gas-y-biocombustibles/"
+          },
+          {
+            "title": "Chilango — El plan de Pemex 2026",
+            "url": "https://www.chilango.com/noticias/petroleo-gas-y-nuevas-energias-cual-es-el-plan-de-pemex-este-2026/"
+          }
+        ]
+      },
+      {
+        "slug": "cenace-preve-demanda-electrica-record-54-mil-mw-verano",
+        "category": "Electricidad",
+        "title": "CENACE prevé una demanda eléctrica récord de 54 mil MW este verano",
+        "dek": "Olas de calor, crecimiento industrial y nearshoring empujan el consumo a un máximo histórico.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-12",
+        "date_label": "12 jun 2026",
+        "read_min": 2,
+        "featured": false,
+        "cover": "assets/news/cenace-preve-demanda-electrica-record-54-mil-mw-verano.jpg",
+        "body": [
+          "El Centro Nacional de Control de Energía (CENACE) estima que entre mayo y julio de 2026 el Sistema Eléctrico Nacional alcanzará una carga máxima de 54 mil megavatios, una cifra sin precedente en el país, de acuerdo con reportes de Reforma y El Diario de Chihuahua. Las olas de calor, el crecimiento industrial y el nearshoring impulsan el consumo a niveles nunca vistos.",
+          "El operador del sistema descarta un déficit estructural a nivel nacional para este verano, apoyado en trabajos de mantenimiento preventivo y en la coordinación con los generadores. CFE y CENACE han señalado que garantizan el suministro pese al incremento de la demanda.",
+          "El reto operativo no es solo generar suficiente energía, sino mantener el margen de reserva que da confiabilidad en las horas pico. Análisis del sector advierten que la Península de Yucatán concentra uno de los riesgos más visibles por la disponibilidad de gas natural en la zona durante los periodos de mayor calor.",
+          "El desempeño del sistema en los próximos meses será una prueba para la planeación de capacidad firme y para la red de transmisión. Energía MX seguirá la evolución de la demanda y de los márgenes de reserva reportados por el operador."
+        ],
+        "sources": [
+          {
+            "title": "Reforma — Prevé Cenace demanda eléctrica récord",
+            "url": "https://www.reforma.com/preve-cenace-demanda-electrica-record/ar3187069"
+          },
+          {
+            "title": "El Diario de Chihuahua — Prevé Cenace demanda récord",
+            "url": "https://www.eldiariodechihuahua.mx/economia/2026/apr/15/preve-cenace-demanda-electrica-record-788297.html"
+          }
+        ]
+      },
+      {
+        "slug": "mexico-requiere-9-mil-millones-dolares-red-electrica",
+        "category": "Electricidad",
+        "title": "México requiere unos 9 mil millones de dólares al año para su red eléctrica",
+        "dek": "Especialistas estiman la inversión anual necesaria para expandir generación y transmisión.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-12",
+        "date_label": "12 jun 2026",
+        "read_min": 2,
+        "featured": false,
+        "cover": "assets/news/mexico-requiere-9-mil-millones-dolares-red-electrica.jpg",
+        "body": [
+          "México necesita alrededor de 9 mil millones de dólares anuales de inversión para expandir y modernizar su generación y transmisión, de acuerdo con análisis especializados citados por medios del sector. La cifra dimensiona el esfuerzo que implica sostener un sistema eléctrico bajo presión por la demanda creciente.",
+          "El punto que más repiten los especialistas es que los problemas de suministro suelen originarse en la transmisión, no en la generación. Sin nuevas líneas y subestaciones, la energía generada en las regiones con mejor recurso renovable no llega a los grandes centros de consumo, y la capacidad instalada rinde por debajo de su potencial.",
+          "El operador del sistema ha descartado un déficit estructural para el verano, pero la conversación de fondo es de mediano plazo: cómo financiar la red que requiere un país que crece en consumo industrial y residencial. La Península de Yucatán es el ejemplo más citado de un nodo con riesgo por restricciones de gas y de transmisión.",
+          "La magnitud de la inversión y su origen, público o mixto, marcará el ritmo de la modernización. Energía MX dará seguimiento a los planes de expansión de la red y a los vehículos de financiamiento disponibles."
+        ],
+        "sources": [
+          {
+            "title": "En Cambio Diario — México espera demanda récord este verano",
+            "url": "https://encambiodiario.mx/energia/mexico-espera-demanda-record-de-electricidad-este-verano/"
+          },
+          {
+            "title": "Excélsior — CFE y CENACE garantizan suministro",
+            "url": "https://www.excelsior.com.mx/nacional/pese-a-incremento-de-demanda-cfe-y-cenace-garantizan-suministro-electrico/1727118"
+          }
+        ]
+      },
+      {
+        "slug": "mexico-licita-planta-25-mw-los-humeros",
+        "category": "Geotermia",
+        "title": "México licita una planta de 25 MW en el campo geotérmico Los Humeros",
+        "dek": "El yacimiento de Puebla suma una nueva unidad en el relanzamiento de la geotermia nacional.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-12",
+        "date_label": "12 jun 2026",
+        "read_min": 2,
+        "featured": false,
+        "cover": "assets/news/mexico-licita-planta-25-mw-los-humeros.jpg",
+        "body": [
+          "México sacó a licitación una planta de 25 MW en el yacimiento geotérmico Los Humeros, en Puebla, de acuerdo con Geotermia Online. La convocatoria forma parte del relanzamiento de la geotermia como fuente de generación limpia y firme, un recurso en el que el país tiene ventajas geológicas notables.",
+          "Los Humeros es uno de los campos geotérmicos más importantes del país, junto con Cerro Prieto en Baja California, Los Azufres en Michoacán y Las Tres Vírgenes en Baja California Sur. A diferencia de la solar y la eólica, la geotermia entrega energía de manera continua, lo que la hace valiosa para dar firmeza al sistema.",
+          "Las autoridades iniciaron a comienzos de 2026 nuevos proyectos y pozos geotérmicos en distintas regiones, y la CFE ha destacado el papel de México como potencia en este recurso. El reto histórico ha sido el costo y el riesgo de la exploración profunda, donde nuevas técnicas buscan ampliar las zonas explotables.",
+          "La adjudicación de la planta y su calendario de construcción serán la señal de qué tan rápido avanza el relanzamiento. Energía MX seguirá la licitación y los nuevos pozos en desarrollo."
+        ],
+        "sources": [
+          {
+            "title": "Geotermia Online — Licitación 25 MW Los Humeros",
+            "url": "https://geotermiaonline.com/9850/mexico-saca-a-licitacion-la-planta-de-25-mw-del-yacimiento-los-humeros/"
+          },
+          {
+            "title": "CFE — México, potencia en geotermia",
+            "url": "https://app.cfe.mx/Aplicaciones/OTROS/Boletines/boletin?i=2502"
+          }
+        ]
+      },
+      {
+        "slug": "cfe-busca-aumentar-produccion-cerro-prieto",
+        "category": "Geotermia",
+        "title": "CFE busca aumentar la producción del campo geotérmico Cerro Prieto",
+        "dek": "El segundo campo geotérmico más grande del mundo abastece a más de un millón de usuarios en Baja California.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-12",
+        "date_label": "12 jun 2026",
+        "read_min": 2,
+        "featured": false,
+        "cover": "assets/news/cfe-busca-aumentar-produccion-cerro-prieto.jpg",
+        "body": [
+          "La CFE busca aumentar la producción del campo geotérmico de Cerro Prieto, en Baja California, de acuerdo con PiensaGeotermia. Con 720 MW de capacidad instalada, Cerro Prieto es el segundo campo geotérmico más grande del mundo y abastece a más de la mitad de la electricidad que consume un millón de usuarios en la red de distribución del estado.",
+          "La intención de elevar la producción se enmarca en el relanzamiento de la geotermia nacional, una fuente que opera de forma continua y que aporta firmeza al sistema en una región eléctricamente aislada del resto del país. En paralelo, la central de Los Azufres, en Michoacán, generó cerca del 40% de la energía geotermoeléctrica del país, según informó la CFE.",
+          "Mantener y ampliar la producción de un campo maduro implica reponer la presión del yacimiento y perforar nuevos pozos, tareas técnicas que definen la vida útil de estas instalaciones. La experiencia acumulada en Cerro Prieto es un activo para los proyectos geotérmicos más recientes.",
+          "El ritmo de la inversión en pozos y mantenimiento determinará cuánto puede crecer la producción. Energía MX seguirá los planes de la CFE para sus campos geotérmicos."
+        ],
+        "sources": [
+          {
+            "title": "PiensaGeotermia — CFE quiere aumentar Cerro Prieto",
+            "url": "https://www.piensageotermia.com/cfe-quiere-aumentar-la-produccion-de-cerro-prieto-mexico/"
+          },
+          {
+            "title": "La Jornada — Los Azufres opera con apego ambiental: CFE",
+            "url": "https://www.jornada.com.mx/noticia/2026/01/20/economia/central-geotermoelectrica-los-azufres-opera-con-apego-a-reglas-medioambientales-cfe"
+          }
+        ]
+      },
+      {
+        "slug": "comision-nacional-energia-arranca-regulador-centralizado",
+        "category": "Política",
+        "title": "La Comisión Nacional de Energía arranca como regulador centralizado del sector",
+        "dek": "La CNE asume las atribuciones que tenían la CRE y la CNH para simplificar permisos.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-12",
+        "date_label": "12 jun 2026",
+        "read_min": 2,
+        "featured": false,
+        "cover": "assets/news/comision-nacional-energia-arranca-regulador-centralizado.jpg",
+        "body": [
+          "La Comisión Nacional de Energía (CNE) inició funciones como el nuevo ente regulador centralizado del sector, al asumir las atribuciones que antes correspondían a la Comisión Reguladora de Energía (CRE) y a la Comisión Nacional de Hidrocarburos (CNH), de acuerdo con análisis de firmas especializadas. Su objetivo declarado es simplificar permisos, reducir duplicidades y acelerar el despliegue energético.",
+          "La CNE es ahora la autoridad que otorga, modifica y supervisa los permisos del sector. Las empresas que transportan, almacenan, distribuyen, comercializan o expenden hidrocarburos requieren un permiso vigente para operar y, desde abril de 2026, también para facturar, según consigna la guía de permisos de Volumetrics.",
+          "La consolidación regulatoria se acompaña de un nuevo marco legal del sector eléctrico y de hidrocarburos publicado en 2025, que redefine reglas para empresas e inversionistas. Para el sector, la pregunta práctica es si la ventanilla única se traduce en tiempos de respuesta más cortos.",
+          "El desempeño de la CNE en sus primeros meses, medido en permisos resueltos y plazos, será la prueba de la reforma. Energía MX seguirá las disposiciones y los criterios que publique el nuevo regulador."
+        ],
+        "sources": [
+          {
+            "title": "Volumetrics — Permisos de la CNE (antes CRE) 2026",
+            "url": "https://www.volumetrics.com.mx/blog/permisos-de-la-cne-antes-cre-guia-completa-para-2026/"
+          },
+          {
+            "title": "Holland & Knight — Reformas a la normativa energética",
+            "url": "https://www.hklaw.com/en/insights/publications/2025/04/mexico-publica-reformas-y-actualizaciones-en-la-normativa-energetica"
+          }
+        ]
+      },
+      {
+        "slug": "sener-facultades-planeacion-vinculante-transicion-energetica",
+        "category": "Política",
+        "title": "SENER gana facultades de planeación vinculante para la transición energética",
+        "dek": "Los permisos e inversiones deberán alinearse con planes oficiales rumbo a 45% de electricidad limpia en 2030.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-12",
+        "date_label": "12 jun 2026",
+        "read_min": 2,
+        "featured": false,
+        "cover": "assets/news/sener-facultades-planeacion-vinculante-transicion-energetica.jpg",
+        "body": [
+          "La Ley de Planeación y Transición Energética otorga a la Secretaría de Energía (SENER) facultades de planeación vinculante, lo que significa que los permisos e inversiones del sector deberán alinearse con los planes oficiales de mediano y largo plazo. El cambio coloca a la planeación estatal en el centro del despliegue energético.",
+          "México se ha comprometido a generar al menos 45% de su electricidad con energías limpias hacia 2030. Para alcanzar esa meta, estimaciones del sector calculan que se requerirán más de 45 GW de nueva capacidad instalada en los próximos cinco años, una expansión de gran escala que combina generación, red y almacenamiento.",
+          "La planeación vinculante busca dar orden y previsibilidad a esa expansión, al establecer hacia dónde y con qué tecnologías debe crecer el sistema. Para los inversionistas, el reto es leer esos planes y ajustar sus proyectos a las prioridades publicadas por la autoridad.",
+          "El grado de detalle y la estabilidad de los planes oficiales determinarán su utilidad como guía de inversión. Energía MX seguirá la publicación de los instrumentos de planeación y sus metas por tecnología."
+        ],
+        "sources": [
+          {
+            "title": "Cámara de Diputados — Ley de Planeación y Transición Energética",
+            "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LPTE.pdf"
+          },
+          {
+            "title": "Energía Real — Panorama energético 2026",
+            "url": "https://www.energiareal.mx/blog/panorama-energetico-en-mexico-2026-contexto-global-regulacion-y-decisiones-clave-para-empresas"
+          }
+        ]
+      },
+      {
+        "slug": "iea-brasil-chile-mexico-80-por-ciento-renovables-region",
+        "category": "Análisis",
+        "title": "IEA: Brasil, Chile y México concentrarán el 80% de las renovables de la región",
+        "dek": "América Latina sumará cerca de 160 GW de capacidad renovable hacia 2030, liderada por tres mercados.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-12",
+        "date_label": "12 jun 2026",
+        "read_min": 2,
+        "featured": false,
+        "cover": "assets/news/iea-brasil-chile-mexico-80-por-ciento-renovables-region.jpg",
+        "body": [
+          "La Agencia Internacional de Energía (IEA) prevé que Brasil, Chile y México aporten más del 80% de la expansión de capacidad renovable de América Latina entre 2025 y 2030, de acuerdo con La Jornada. La región sumará cerca de 160 GW de capacidad renovable hacia el final de la década, con la solar fotovoltaica como principal motor de crecimiento.",
+          "La IEA destaca que las proyecciones de México se distinguen del resto de la región por el impulso de las iniciativas gubernamentales. El país lanzó un plan energético de 22 mil millones de dólares con la meta de 29 GW de nueva capacidad, mejoras en la red, expansión del almacenamiento y proyectos reactivados.",
+          "Que tres países concentren la mayor parte del crecimiento regional habla tanto de su escala como de la importancia de sus decisiones de política. Para México, mantener el ritmo dependerá de que la planeación, la red y el financiamiento avancen en paralelo a la capacidad de generación.",
+          "La comparación regional ofrece un termómetro útil para ubicar a México frente a sus pares. Energía MX seguirá los reportes de la IEA y la ejecución del plan nacional."
+        ],
+        "sources": [
+          {
+            "title": "La Jornada — IEA destaca impulso de México a renovables",
+            "url": "https://www.jornada.com.mx/2026/01/11/economia/015n2eco"
+          },
+          {
+            "title": "Americas Market Intelligence — Brasil, Chile y México a la cabeza",
+            "url": "https://americasmi.com/insights/brasil-chile-mexico-mercados-mas-importantes-energias-renovables-america-latina/"
+          }
+        ]
+      },
+      {
+        "slug": "irena-capacidad-renovable-mexico-35-gw-2025",
+        "category": "Análisis",
+        "title": "IRENA: la capacidad renovable de México llegó a 35.2 GW en 2025",
+        "dek": "El crecimiento de 2.73% reaviva el debate sobre el ritmo de la transición en el país.",
+        "author": "Redacción Energía MX",
+        "date_iso": "2026-06-12",
+        "date_label": "12 jun 2026",
+        "read_min": 2,
+        "featured": false,
+        "cover": "assets/news/irena-capacidad-renovable-mexico-35-gw-2025.jpg",
+        "body": [
+          "La capacidad total de energía renovable de México alcanzó 35.168 GW en 2025, un aumento de 2.73% respecto a los 34.231 GW de 2024, de acuerdo con datos de IRENA citados por Factor Energético. El dato ofrece una fotografía precisa del punto de partida de la transición en el país.",
+          "El ritmo de crecimiento es el centro del análisis. Tras varios años de avance moderado, la pregunta es si las nuevas metas oficiales, el regreso del almacenamiento y la planeación vinculante lograrán acelerar la incorporación de capacidad limpia en los próximos años.",
+          "El contraste regional es ilustrativo: mientras la IEA prevé que México sea uno de los tres motores renovables de América Latina, los datos de IRENA muestran que la base instalada todavía crece a un dígito bajo. Cerrar esa brecha entre la meta y el ritmo es el principal reto de mediano plazo.",
+          "Los reportes anuales de IRENA permitirán medir si 2026 marca una aceleración respecto a 2025. Energía MX dará seguimiento a las cifras de capacidad instalada y a su composición por tecnología."
+        ],
+        "sources": [
+          {
+            "title": "Factor Energético — Renovables en México 2025 (datos IRENA)",
+            "url": "https://factorenergetico.mx/energias-renovables-en-mexico-suman-cuatro-anos-de-estancamiento-en-2025/"
+          },
+          {
+            "title": "IRENA",
+            "url": "https://www.irena.org/"
+          }
+        ]
+      },
       {
         "slug": "subastas-renovables-regresan-2026",
         "category": "Renovables",
@@ -494,7 +838,7 @@
         "date_iso": "2026-06-12",
         "date_label": "12 jun 2026",
         "read_min": 4,
-        "featured": true,
+        "featured": false,
         "body": [
           "El sector eléctrico mexicano observa con atención la posible reactivación de las subastas de largo plazo, el mecanismo que entre 2015 y 2017 adjudicó algunos de los precios de energía solar y eólica más bajos del mundo. Las cifras de capacidad instalada sugieren que el país mantiene un rezago frente a sus metas de generación limpia.",
           "Para los desarrolladores, la certidumbre de un contrato de largo plazo es la condición que destraba el financiamiento. Sin ese instrumento, buena parte del pipeline renovable permaneció en pausa. La discusión actual gira en torno al diseño del mecanismo: criterios de adjudicación, requisitos de contenido nacional y la integración de almacenamiento.",
@@ -595,39 +939,140 @@
   },
   "extras": {
     "secciones": [
-      { "route": "#/datos", "k": "01", "title": "Datos en vivo", "desc": "El pulso del Sistema Eléctrico Nacional: mix de generación, renovables, intensidad de carbono, precios y demanda, actualizado a diario." },
-      { "route": "#/casos", "k": "02", "title": "Casos de Éxito", "desc": "Buenas prácticas internacionales de mercado, regulación y tecnología, leídas en clave mexicana." },
-      { "route": "#/politica", "k": "03", "title": "Política", "desc": "Briefs regulatorios comparados: qué deciden los gobiernos del mundo y qué significa para México." },
-      { "route": "#/mapa", "k": "04", "title": "Mapa", "desc": "Cartografía energética interactiva: capacidad instalada y proyectos emblemáticos por tecnología." },
-      { "route": "#/convocatorias", "k": "05", "title": "Convocatorias", "desc": "Oportunidades abiertas de financiamiento e inversión en infraestructura energética nacional." },
-      { "route": "#/agenda", "k": "06", "title": "Agenda", "desc": "Los próximos hitos del sector: congresos, fechas regulatorias y publicaciones clave." },
-      { "route": "#/noticias", "k": "07", "title": "Noticias", "desc": "Cobertura editorial diaria del sector energético mexicano e internacional." }
+      {
+        "route": "#/datos",
+        "k": "01",
+        "title": "Datos en vivo",
+        "desc": "El pulso del Sistema Eléctrico Nacional: mix de generación, renovables, intensidad de carbono, precios y demanda, actualizado a diario."
+      },
+      {
+        "route": "#/casos",
+        "k": "02",
+        "title": "Casos de Éxito",
+        "desc": "Buenas prácticas internacionales de mercado, regulación y tecnología, leídas en clave mexicana."
+      },
+      {
+        "route": "#/politica",
+        "k": "03",
+        "title": "Política",
+        "desc": "Briefs regulatorios comparados: qué deciden los gobiernos del mundo y qué significa para México."
+      },
+      {
+        "route": "#/mapa",
+        "k": "04",
+        "title": "Mapa",
+        "desc": "Cartografía energética interactiva: capacidad instalada y proyectos emblemáticos por tecnología."
+      },
+      {
+        "route": "#/convocatorias",
+        "k": "05",
+        "title": "Convocatorias",
+        "desc": "Oportunidades abiertas de financiamiento e inversión en infraestructura energética nacional."
+      },
+      {
+        "route": "#/agenda",
+        "k": "06",
+        "title": "Agenda",
+        "desc": "Los próximos hitos del sector: congresos, fechas regulatorias y publicaciones clave."
+      },
+      {
+        "route": "#/noticias",
+        "k": "07",
+        "title": "Noticias",
+        "desc": "Cobertura editorial diaria del sector energético mexicano e internacional."
+      }
     ],
     "datos_indicadores": {
       "label": "COMBUSTIBLES Y MERCADOS",
       "note": "Precios de referencia que inciden en el costo de generación. Actualización diaria.",
       "items": [
-        { "label": "Mezcla Mexicana", "value": "$68.4", "unit": "USD/bbl", "delta": "▼ -1.2% vs 7d", "trend": "down" },
-        { "label": "Gas natural · Henry Hub", "value": "$3.85", "unit": "USD/MMBtu", "delta": "▲ +2.1% vs 7d", "trend": "up-bad" },
-        { "label": "Brent", "value": "$74.1", "unit": "USD/bbl", "delta": "▲ +0.6% vs 7d", "trend": "up-bad" },
-        { "label": "Certificados CEL", "value": "$18.9", "unit": "USD/CEL", "delta": "= sin cambio", "trend": "flat" }
+        {
+          "label": "Mezcla Mexicana",
+          "value": "$68.4",
+          "unit": "USD/bbl",
+          "delta": "▼ -1.2% vs 7d",
+          "trend": "down"
+        },
+        {
+          "label": "Gas natural · Henry Hub",
+          "value": "$3.85",
+          "unit": "USD/MMBtu",
+          "delta": "▲ +2.1% vs 7d",
+          "trend": "up-bad"
+        },
+        {
+          "label": "Brent",
+          "value": "$74.1",
+          "unit": "USD/bbl",
+          "delta": "▲ +0.6% vs 7d",
+          "trend": "up-bad"
+        },
+        {
+          "label": "Certificados CEL",
+          "value": "$18.9",
+          "unit": "USD/CEL",
+          "delta": "= sin cambio",
+          "trend": "flat"
+        }
       ]
     },
     "casos_why": "Ninguna de estas prácticas se traslada de forma automática. Las publicamos porque ofrecen pistas concretas —de diseño de mercado, regulación o despliegue tecnológico— que el caso mexicano puede adaptar a su propia ruta de transición.",
     "casos_lens": "Lente editorial: priorizamos casos con resultados medibles, fuentes verificables y relevancia directa para el Sistema Eléctrico Nacional.",
     "politica_context": "Para México, la discusión regulatoria sobre hidrocarburos no ocurre en el vacío: cada decisión se lee a la luz de la seguridad energética, la inversión privada y los compromisos climáticos. Esta serie compara marcos para informar, no para opinar.",
     "politica_docs": [
-      { "title": "El mapa regulatorio del fracking", "ref": "DT-2026/14", "pages": "18 pp · ES/EN" },
-      { "title": "Diseño de subastas de capacidad firme", "ref": "DT-2026/11", "pages": "24 pp · ES" },
-      { "title": "Almacenamiento en el mercado eléctrico", "ref": "DT-2026/09", "pages": "16 pp · ES/EN" }
+      {
+        "title": "El mapa regulatorio del fracking",
+        "ref": "DT-2026/14",
+        "pages": "18 pp · ES/EN"
+      },
+      {
+        "title": "Diseño de subastas de capacidad firme",
+        "ref": "DT-2026/11",
+        "pages": "24 pp · ES"
+      },
+      {
+        "title": "Almacenamiento en el mercado eléctrico",
+        "ref": "DT-2026/09",
+        "pages": "16 pp · ES/EN"
+      }
     ],
     "mapa_projects": [
-      { "name": "Puerto Peñasco", "state": "Sonora", "tech": "solar", "value": "720 MW" },
-      { "name": "Corredor La Ventosa", "state": "Oaxaca", "tech": "eolica", "value": "~2,000 MW" },
-      { "name": "Cerro Prieto", "state": "Baja California", "tech": "geotermia", "value": "570 MW" },
-      { "name": "Los Azufres", "state": "Michoacán", "tech": "geotermia", "value": "248 MW" },
-      { "name": "Chicoasén", "state": "Chiapas", "tech": "hidro", "value": "2,400 MW" },
-      { "name": "Laguna Verde", "state": "Veracruz", "tech": "nuclear", "value": "1,610 MW" }
+      {
+        "name": "Puerto Peñasco",
+        "state": "Sonora",
+        "tech": "solar",
+        "value": "720 MW"
+      },
+      {
+        "name": "Corredor La Ventosa",
+        "state": "Oaxaca",
+        "tech": "eolica",
+        "value": "~2,000 MW"
+      },
+      {
+        "name": "Cerro Prieto",
+        "state": "Baja California",
+        "tech": "geotermia",
+        "value": "570 MW"
+      },
+      {
+        "name": "Los Azufres",
+        "state": "Michoacán",
+        "tech": "geotermia",
+        "value": "248 MW"
+      },
+      {
+        "name": "Chicoasén",
+        "state": "Chiapas",
+        "tech": "hidro",
+        "value": "2,400 MW"
+      },
+      {
+        "name": "Laguna Verde",
+        "state": "Veracruz",
+        "tech": "nuclear",
+        "value": "1,610 MW"
+      }
     ],
     "convocatoria_criterios": [
       "Proyectos de transmisión, almacenamiento, geotermia o eficiencia energética.",
@@ -637,13 +1082,28 @@
       "Auditoría independiente a cargo de la ASF."
     ],
     "convocatoria_faq": [
-      { "q": "¿Quién puede participar?", "a": "Vehículos institucionales y desarrolladores con proyectos elegibles en las cuatro verticales del programa." },
-      { "q": "¿Cómo se selecciona?", "a": "Por un panel independiente con criterios publicados; el fallo se da a conocer el 15 de octubre de 2026." },
-      { "q": "¿Dónde consulto las bases?", "a": "En la sesión informativa del 19 de mayo de 2026 y en el documento de bases (PDF, 32 pp)." }
+      {
+        "q": "¿Quién puede participar?",
+        "a": "Vehículos institucionales y desarrolladores con proyectos elegibles en las cuatro verticales del programa."
+      },
+      {
+        "q": "¿Cómo se selecciona?",
+        "a": "Por un panel independiente con criterios publicados; el fallo se da a conocer el 15 de octubre de 2026."
+      },
+      {
+        "q": "¿Dónde consulto las bases?",
+        "a": "En la sesión informativa del 19 de mayo de 2026 y en el documento de bases (PDF, 32 pp)."
+      }
     ],
     "convocatoria_previas": [
-      { "year": "2025", "text": "Segunda edición: $6,400 MDP asignados a cinco proyectos de transmisión y almacenamiento." },
-      { "year": "2024", "text": "Primera edición: $4,100 MDP; arranque del programa de inversión mixta." }
+      {
+        "year": "2025",
+        "text": "Segunda edición: $6,400 MDP asignados a cinco proyectos de transmisión y almacenamiento."
+      },
+      {
+        "year": "2024",
+        "text": "Primera edición: $4,100 MDP; arranque del programa de inversión mixta."
+      }
     ],
     "agenda_intro": "Seguimiento de las fechas que mueven al sector: cierres regulatorios, congresos y publicaciones de referencia. Filtra por tipo para enfocar tu calendario."
   },
