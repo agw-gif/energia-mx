@@ -8,6 +8,9 @@ const CAT_COLORS = { "Renovables": "#33564B", "Hidrocarburos": "#7A560F", "Elect
 const catColor = (c) => CAT_COLORS[c] || "#5B4F3B";
 const darken = (hex, f = .6) => { const n = parseInt(hex.slice(1), 16); const r = Math.round(((n >> 16) & 255) * f), g = Math.round(((n >> 8) & 255) * f), b = Math.round((n & 255) * f); return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1); };
 const catGrad = (c) => `linear-gradient(135deg, ${catColor(c)}, ${darken(catColor(c))})`;
+const coverBg = (a) => (a && a.cover)
+  ? `background-image:linear-gradient(180deg,rgba(20,16,12,.05),rgba(20,16,12,.45)),url('${a.cover}');background-size:cover;background-position:center`
+  : `background:${catGrad(a ? a.category : "")}`;
 const ACCENTS = ["#33564B", "#B07E1C", "#27496B", "#9a4a2c", "#7A560F", "#4A4036"];
 const ICONS = {
   "#/casos": '<svg viewBox="0 0 24 24"><path d="M12 2.6l2.7 6.1 6.6.5-5 4.3 1.6 6.5L12 16.7 6.1 20l1.6-6.5-5-4.3 6.6-.5z"/></svg>',
@@ -281,7 +284,7 @@ function agendaRow(ev) {
 /* ---------------- NOTICIAS / BLOG ---------------- */
 function postCard(a) {
   return `<a class="post" href="#/nota/${esc(a.slug)}" data-cat="${esc(a.category)}">
-    <div class="thumb" style="background:${catGrad(a.category)}"><span class="cat">${esc(a.category)}</span></div>
+    <div class="thumb" style="${coverBg(a)}"><span class="cat">${esc(a.category)}</span></div>
     <div class="pbody"><h3>${esc(a.title)}</h3><p>${esc(a.dek)}</p>
       <div class="meta">${esc(a.date_label)} · ${esc(a.read_min)} min · ${esc(a.author)}</div></div></a>`;
 }
@@ -291,7 +294,7 @@ function blogPage(n) {
   return pageHead(n.kicker, n.title, n.intro)
     + `<section class="block first"><div class="wrap">
       <a class="feat" href="#/nota/${esc(feat.slug)}">
-        <div class="ph" style="background:${catGrad(feat.category)}"><span class="cat">${esc(feat.category)}</span></div>
+        <div class="ph" style="${coverBg(feat)}"><span class="cat">${esc(feat.category)}</span></div>
         <div class="body"><div class="kicker amber">DESTACADO</div><h2>${esc(feat.title)}</h2><p>${esc(feat.dek)}</p>
           <div class="meta">${esc(feat.date_label)} · ${esc(feat.read_min)} min de lectura · ${esc(feat.author)}</div></div></a>
       <div class="map-head" id="blog-filters" style="margin-top:34px">${n.categories.map((c, i) => `<span class="chip ${i === 0 ? 'active' : ''}" data-type="${esc(c)}">${esc(c)}</span>`).join("")}</div>
@@ -304,7 +307,8 @@ function articlePage(slug) {
   return `<div class="page-top"><div class="wrap article">
     <div class="cat">${esc(a.category)}</div><h1>${esc(a.title)}</h1><p class="dek">${esc(a.dek)}</p>
     <div class="ameta">POR ${esc(a.author.toUpperCase())} · ${esc(a.date_label)} · ${esc(a.read_min)} MIN DE LECTURA</div>
-    <div class="cover" style="background:${catGrad(a.category)}"></div><div class="prose">${a.body.map(p => `<p>${esc(p)}</p>`).join("")}</div>
+    <div class="cover" style="${coverBg(a)}"></div><div class="prose">${a.body.map(p => `<p>${esc(p)}</p>`).join("")}</div>
+    ${(a.sources && a.sources.length) ? `<div class="sources"><div class="sl">FUENTES</div>${a.sources.map(s => `<div class="si">${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>` : esc(s.title)}</div>`).join("")}</div>` : ""}
     <a class="back" href="#/noticias">← Volver a Noticias</a></div></div>`;
 }
 
